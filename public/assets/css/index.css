@@ -515,6 +515,12 @@ nav h2 a{
   outline: none;
 }
 
+/* ////////////////////////////// MAIN SLIDER ////////////////////////////// */
+.mainSlider{
+  width: 1018px;
+  margin: 20px auto 0;
+}
+
 /* ////////////////////////////// FOOOTER ////////////////////////////// */
 /* ////////////////////////////// Jeisson ////////////////////////////// */
 
@@ -681,7 +687,8 @@ body.light .emision:hover a{
     margin-top: 5px;
   }
 
-  .main{
+  .main,
+  .mainSlider{
     width: 95%;
   }
 

@@ -21,7 +21,7 @@ const Anime = () => {
                     <i className="far fa-arrow-alt-circle-right"></i>
                   </div>
                 </div>
-                <img src="https://i.ibb.co/vVW29T6/Kimetsu-no-yaiba-season1-normal.jpg" title="Kimetsu no Yaiba" />
+                <img src="https://i.ibb.co/vVW29T6/Kimetsu-no-yaiba-season1-normal.jpg" title="Kimetsu no Yaiba" alt="Kimetsu no Yaiba" />
               </div>
             </Link>
 
