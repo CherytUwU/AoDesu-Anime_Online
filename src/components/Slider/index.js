@@ -35,7 +35,7 @@ const Slider = () => {
   return (
     <main className="mainSlider">
         <h2 className="title-main"><i class="fas fa-plus"></i> Nuevos</h2>
-      <Slideshow controles={true} autoplay={true} velocidad="500" intervalo="5000">
+      <Slideshow controles={true} autoplay={true} velocidad="500" intervalo="10000">
         <Slide>
             <Link to={urlVerOpcion1}>
               <img src={img1} alt={Anime1} />

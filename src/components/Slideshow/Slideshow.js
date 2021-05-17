@@ -9,7 +9,7 @@ const Slideshow = ({
         controles = false, 
         autoplay  = false, 
         velocidad="500", 
-        intervalo="5000"
+        intervalo="10s"
     }) => {
 
     const slideshow = useRef(null);
