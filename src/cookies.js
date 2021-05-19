@@ -2,8 +2,6 @@
 function compruebaAceptaCookies() {
     if(localStorage.aceptaCookies == 'true'){
       cajacookies.style.display = 'none';
-    }else{
-      cajacookies.style.display = 'block'
     }
   }
   

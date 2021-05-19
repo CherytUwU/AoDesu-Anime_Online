@@ -1,3 +1,5 @@
+import React from 'react'
+
 const btnSwitch = document.querySelector('#switch');
 
 btnSwitch.addEventListener('click', () => {
@@ -22,3 +24,5 @@ if(localStorage.getItem('light-mode') === 'true'){
     document.body.classList.remove('light');
     btnSwitch.classList.remove('active');
 };
+
+export default btnSwitch

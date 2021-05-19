@@ -5,6 +5,7 @@ import React from 'react'
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 import Slider from '../../components/Slider'
+import btnSwitch from '../../components/Scripts'
 
 const MainLayout = ({children}) => {
   return (
@@ -14,7 +15,7 @@ const MainLayout = ({children}) => {
         <Slider />
         {children}
         </main>
-      <Footer />
+      <Footer /> 
     </div>
   )
 }
