@@ -631,7 +631,7 @@ body.light .buscador-categoria input{
 }
 
 .info{
-  width: 1000px;
+  width: 1200px;
   height: auto;
   margin: 0 auto;
 }
@@ -665,7 +665,7 @@ body.light .buscador-categoria input{
 }
 
 .contenido-info{
-  width: 790px;
+  width: 995px;
   display: inline-block;
 }
 
@@ -702,8 +702,15 @@ body.light .buscador-categoria input{
 }
 
 /* SPANS .contenido-info-h3 */
-.plataforma-upload{
+.plataforma-upload,
+.fecha-upload,
+.temporada-upload,
+.info-temporada-upload-invierno,
+.info-temporada-upload-primavera{
   margin: 0 4px;
+}
+
+.plataforma-upload{
   color: var(--branch-principal);
   font-weight: 500;
 }
@@ -755,9 +762,9 @@ body.light .buscador-categoria input{
 }
 
 .listado{
-  width: 700px;
+  width: 100%;
   display: inline-block;
-  height: 650px;
+  max-height: 650px;
   overflow-y: scroll;
 }
 
@@ -848,29 +855,66 @@ background: var(--extra-color-dark);
 }
 
 .cronologia{
-  width: 280px;
-  float: right;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.recomendados{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .link-cronologia:hover .content-cronologia h2{
   color: var(--font-color-dark-2)
 }
 
-.content-cronologia{
-  width: 100%;
+.content-cronologia,
+.content-recomendados{
+  width: 300px;
   margin-bottom: 10px;
+  margin-right: 15px;
+  display: inline-table;
+  text-align: left;
 }
 
-.content-cronologia img{
+.content-cronologia img,
+.content-recomendados img{
   width: 100%;
 }
 
-.content-cronologia h2{
-  width: 240px;
+.content-cronologia h2,
+.content-recomendados h2{
+  width: 265px;
   color: var(--font-color-dark);
   margin: 3px 0;
   font-weight: 500;
   display: inline-block;
+  font-size: 18px;
+}
+
+.content-cronologia p,
+.content-recomendados p{
+  color: var(--font-color-dark-2);
+  text-align: right;
+  margin: 0;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.cronologia h1,
+.recomendados h1{
+  font-weight: 400;
+}
+
+.cronologia h1 i,
+.recomendados h1 i{
+  color: var(--branch-principal);
+}
+
+.container-comments{
+  width: 1000px;
+  margin: 20px auto;
 }
 
 /* ////////////////////////////// FOOOTER ////////////////////////////// */
@@ -923,6 +967,7 @@ background: var(--extra-color-dark);
     padding: 5px 5px;
     border: 1px solid var(--font-color-dark-3);
     border-radius: 3px;
+    display: block;
 }
 
 .footer a{  

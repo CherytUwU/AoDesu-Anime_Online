@@ -39,7 +39,7 @@ const BunnyGirlSenpai = () => {
                         <h1><i className="fas fa-list"></i> Listado de episodios</h1>
                     </div>
                     <div className="listado">
-                        <Link to="/ver/seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai">
+                        <Link to="/ver/seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai/cap1" className="link-lista" >
                             <div className="contenido-listado">
                                 <div className="img-listado">
                                     <img src="https://i.ibb.co/gz1tt9V/seishun-buta-yarou-wa-bunny-girl-senpai-no-yume-wo-minai-largo.jpg" alt="Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai" />
