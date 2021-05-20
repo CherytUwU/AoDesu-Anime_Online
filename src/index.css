@@ -676,7 +676,7 @@ body.light .buscador-categoria input{
 }
 
 .small h1{
-  font: 28px;
+  font-size: 28px;
   font-weight: 500;
   margin: 0;
 }
@@ -737,7 +737,7 @@ body.light .buscador-categoria input{
 
 .container-list-e{
   width: 100%;
-  padding: 30px;
+  padding: 30px 0;
   background: var(--secondary-color-dark);
   color: var(--font-color-dark);
 }
@@ -917,6 +917,18 @@ background: var(--extra-color-dark);
   margin: 20px auto;
 }
 
+.list-arrow{
+  width: 100%;
+  text-align: center;
+  background: var(--extra-color-dark);
+  border-top: 1px solid var(--branch-principal);
+}
+
+.list-arrow i{
+  color: var(--branch-principal);
+  font-size: 32px;
+}
+
 /* ////////////////////////////// FOOOTER ////////////////////////////// */
 /* ////////////////////////////// Jeisson ////////////////////////////// */
 
@@ -1062,6 +1074,18 @@ body.light .emision:hover a{
 }
 
 /* ////////////////////////////// MEDIA QUERY'S ////////////////////////////// */
+@media (max-width: 1260px){
+  .info{
+    width: 1000px;
+  }
+
+  .contenido-info{
+    width: 795px;
+  }
+
+
+}
+
 @media (max-width: 1023px){
   .links-menu a:hover{
     background: transparent;
@@ -1147,6 +1171,89 @@ body.light .emision:hover a{
     padding-bottom: 10px;
   }
 
+  .listado{
+    max-height: none;
+  }
+
+  .list-arrow{
+    display: none;
+  }
+
+  .img-info{
+    float: left;
+  }
+
+  .cronologia,
+  .recomendados{
+    width: 98%;
+    margin: 30px auto;
+  }
+
+  .info{
+    width: 800px;
+  }
+
+  .contenido-info{
+    width: 595px;
+  }
+
+  .generos span{
+    font-size: 16px;
+  }
+
+  .contenido-info h1{
+    font-size: 24px;
+  }
+
+  .contenido-info h2{
+    font-size: 16px;
+  }
+
+  .contenido-list-e{
+    width: 800px;
+  }
+
+  .listado{
+    width: 100%;
+  }
+
+  .content-cronologia{
+    width: 185px;
+    display: inline-table;
+  }
+
+  .content-cronologia h2{
+    width: 154px;
+    font-size: 14px;
+  }
+
+  .content-cronologia p{
+    font-size: 12px;
+  }
+
+  .titulo-listado{
+    width: 370px;
+  }
+
+  .cronologia h1{
+    font-size: 20px;
+  }
+
+  .content-cronologia,
+  .content-recomendados{
+    width: 250px;
+  }
+
+  .content-cronologia p,
+  .content-recomendados p{
+    font-size: 12px;
+  }
+
+  .content-cronologia h2,
+  .content-recomendados h2{
+    width: 250px;
+  }
+
   body.light .title-contenido{
     background: var(--secundary-color-light);
   }
@@ -1155,6 +1262,62 @@ body.light .emision:hover a{
   body.light .title-contenido p{
     color: var(--font-color-light);
   }
+}
+
+@media (max-width: 825px){
+  .info{
+    width: 98%;
+    margin: 0 auto;
+  }
+
+  .contenido-info{
+    width: 62%;
+    height: 316px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+
+  .img-info{
+    width: 200px;
+  }
+
+  .generos span{
+    font-size: 10px;
+  }
+
+  .contenido-list-e{
+    width: 98%;
+  }
+
+  .listado{
+    height: auto;
+    display: block;
+    width: 100%;
+  }
+
+  .cronologia{
+    float: none;
+    display: block;
+  }
+
+  .titulo-listado{
+    width: 330px;
+  }
+
+  .contenido-info::after{
+    content: "Sinopsis No Disponible";
+  }
+
+  .contenido-info p{
+    display: none;
+  }
+
+  .cronologia,
+  .recomendados{
+    width: 530px;
+    text-align: left;
+  }
+  
 }
 
 @media (max-width: 560px){
@@ -1254,6 +1417,73 @@ body.light .emision:hover a{
   .buscador-categoria input{
     width: 100%;
   }
+
+  /* //////////////// LIST CAPS ///////////////////// */  
+  .img-info{
+    width: 150px;
+  }
+  
+  .contenido-info{
+    height: auto;
+  }
+  
+  .generos span{
+    padding: 4px 10px;
+  }
+  
+  .img-listado{
+    width: 150px;
+  }
+  
+  .titulo-listado{
+    width: 60%;
+  }
+  
+  .titulo-listado h2{
+    font-size: 18px;
+  }
+  
+  .titulo-listado h3{
+    font-size: 14px;
+  }
+  
+  .titulo-listado p{
+    font-size: 12px;
+  }
+  
+  .contenido-listado{
+    height: 83px;
+  }
+  
+  .content-cronologia h2{
+    width: 169px;
+    font-size: 16px;
+  }
+
+  .contenido-info h1{
+    font-size: 18px;
+  }
+
+  .informacion{
+    font-size: 12px;
+  }
+
+  .content-cronologia, 
+  .content-recomendados{
+    display: inline-block;
+    width: 350px;
+  }
+
+  .cronologia,
+  .recomendados{
+    width: 98%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .content-cronologia h2, .content-recomendados h2 {
+    width: 324px;
+  }
 }
 
 @media (max-width: 425px){
@@ -1295,5 +1525,125 @@ body.light .emision:hover a{
 
   .switch span{
     width: 20px;
+  }
+
+  .container-switch-header {
+    padding:  0;
+  }
+
+  .img-info{
+    width: 100px;
+  }
+
+  .img-info h2{
+    font-size: 16px;
+  }
+
+  .contenido-info h1{
+    font-size: 20px;
+  }
+
+  .contenido-info h2{
+    font-size: 14px;
+  }
+
+  .informacion{
+    font-size: 11.2px;
+    border-left: 2px solid var(--branch-principal);
+  }
+
+  .generos{
+    margin: 3px 0;
+  }
+
+  .contenido-info p{
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  .contenido-info::after{
+    height: 168px;
+  }
+
+  .name-list h1{
+    font-size: 24px;
+  }
+
+  .img-listado{
+    width: 120px;
+  }
+
+  .titulo-listado{
+    width: 175px;
+  }
+
+  .titulo-listado h2{
+    font-size: 16px;
+  }
+
+  .titulo-listado h3{
+    display: none;
+  }
+
+  .titulo-listado p{
+    font-size: 10;
+  }
+
+  .cronologia,
+  .recomendados{
+    width: 100%;
+  }
+
+  .content-cronologia h2,
+  .content-recomendados h2{
+    font-size: 20px;
+    width: 280px;
+  }
+
+  .cronologia h1,
+  .recomendados h1{
+    padding: 5px 0;
+    border-bottom: 1px solid var(--branch-principal);
+    font-size: 20px;
+  }
+  
+  .info-temporada-upload-invierno,
+  .info-temporada-upload-primavera,
+  body.light .info-temporada-upload-invierno,
+  body.light .info-temporada-upload-primavera{
+    display: block;
+    border: 0;
+    border-radius: 0;
+  }
+
+  body.light .informacion {
+    border-left: 2px solid var(--branch-principal-light);
+    border-radius: 2px;
+  }
+  
+  #infobox3 {
+    width: 250px;
+  }
+
+  .cookies-img{
+    width: 110px;
+  }
+
+  .cookies-img img{
+    width: 100%;
+    position: absolute;
+    right: -100px;
+    top: -70px;
+  }
+
+  .container-list-e,
+  .contenido-listado{
+    padding: 2px 0;
+  }
+
+  .content-cronologia, .content-recomendados {
+    display: inline-block;
+    width: 98%;
+    margin: 3px auto;
   }
 }

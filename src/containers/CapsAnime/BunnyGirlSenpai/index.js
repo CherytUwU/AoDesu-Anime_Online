@@ -14,7 +14,7 @@ const BunnyGirlSenpai = () => {
                         <h1>Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai</h1>
                         
                             
-                        <h3 class="informacion">
+                        <h3 className="informacion">
                           <span className="plataforma-upload">TV</span>
                           <span className="fecha-upload">2018</span>
                           <span className="temporada-upload">Temporada</span>
@@ -55,6 +55,213 @@ const BunnyGirlSenpai = () => {
                         </Link>
 
                         <div className="clearfix"></div>
+
+                        <Link to="/ver/seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai/cap2" className="link-lista" >
+                            <div className="contenido-listado">
+                                <div className="img-listado">
+                                    <img src="https://i.ibb.co/gz1tt9V/seishun-buta-yarou-wa-bunny-girl-senpai-no-yume-wo-minai-largo.jpg" alt="Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai" />
+                                </div>
+                                <div className="titulo-listado">
+                                    <h2>
+                                        Bunny Girl Senpai <span className="episodio">Episodio 2</span>
+                                    </h2>
+                                    <h3>"Siempre hay problemas en la primera cita"</h3>
+                                    <p>11 / Octubre / 2018</p>
+                                </div>
+                            </div>
+                        </Link>
+
+                        <div className="clearfix"></div>
+
+                        <Link to="/ver/seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai/cap3" className="link-lista" >
+                            <div className="contenido-listado">
+                                <div className="img-listado">
+                                    <img src="https://i.ibb.co/gz1tt9V/seishun-buta-yarou-wa-bunny-girl-senpai-no-yume-wo-minai-largo.jpg" alt="Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai" />
+                                </div>
+                                <div className="titulo-listado">
+                                    <h2>
+                                        Bunny Girl Senpai <span className="episodio">Episodio 3</span>
+                                    </h2>
+                                    <h3>"Un mundo sin ti"</h3>
+                                    <p>18 / Octubre / 2018</p>
+                                </div>
+                            </div>
+                        </Link>
+
+                        <div className="clearfix"></div>
+
+                        <Link to="/ver/seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai/cap4" className="link-lista" >
+                            <div className="contenido-listado">
+                                <div className="img-listado">
+                                    <img src="https://i.ibb.co/gz1tt9V/seishun-buta-yarou-wa-bunny-girl-senpai-no-yume-wo-minai-largo.jpg" alt="Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai" />
+                                </div>
+                                <div className="titulo-listado">
+                                    <h2>
+                                        Bunny Girl Senpai <span className="episodio">Episodio 4</span>
+                                    </h2>
+                                    <h3>"Los cerdos no tienen mañana"</h3>
+                                    <p>25 / Octubre / 2018</p>
+                                </div>
+                            </div>
+                        </Link>
+
+                        <div className="clearfix"></div>
+
+                        <Link to="/ver/seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai/cap5" className="link-lista" >
+                            <div className="contenido-listado">
+                                <div className="img-listado">
+                                    <img src="https://i.ibb.co/gz1tt9V/seishun-buta-yarou-wa-bunny-girl-senpai-no-yume-wo-minai-largo.jpg" alt="Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai" />
+                                </div>
+                                <div className="titulo-listado">
+                                    <h2>
+                                        Bunny Girl Senpai <span className="episodio">Episodio 5</span>
+                                    </h2>
+                                    <h3>"Todas mis mentiras para ti"</h3>
+                                    <p>01 / Noviembre / 2018</p>
+                                </div>
+                            </div>
+                        </Link>
+
+                        <div className="clearfix"></div>
+
+                        <Link to="/ver/seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai/cap6" className="link-lista" >
+                            <div className="contenido-listado">
+                                <div className="img-listado">
+                                    <img src="https://i.ibb.co/gz1tt9V/seishun-buta-yarou-wa-bunny-girl-senpai-no-yume-wo-minai-largo.jpg" alt="Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai" />
+                                </div>
+                                <div className="titulo-listado">
+                                    <h2>
+                                        Bunny Girl Senpai <span className="episodio">Episodio 6</span>
+                                    </h2>
+                                    <h3>"El mundo que elegiste"</h3>
+                                    <p>08 / Noviembre / 2018</p>
+                                </div>
+                            </div>
+                        </Link>
+
+                        <div className="clearfix"></div>
+
+                        <Link to="/ver/seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai/cap7" className="link-lista" >
+                            <div className="contenido-listado">
+                                <div className="img-listado">
+                                    <img src="https://i.ibb.co/gz1tt9V/seishun-buta-yarou-wa-bunny-girl-senpai-no-yume-wo-minai-largo.jpg" alt="Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai" />
+                                </div>
+                                <div className="titulo-listado">
+                                    <h2>
+                                        Bunny Girl Senpai <span className="episodio">Episodio 7</span>
+                                    </h2>
+                                    <h3>"La juventud es una paradoja"</h3>
+                                    <p>15 / Noviembre / 2018</p>
+                                </div>
+                            </div>
+                        </Link>
+
+                        <div className="clearfix"></div>
+
+                        <Link to="/ver/seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai/cap8" className="link-lista" >
+                            <div className="contenido-listado">
+                                <div className="img-listado">
+                                    <img src="https://i.ibb.co/gz1tt9V/seishun-buta-yarou-wa-bunny-girl-senpai-no-yume-wo-minai-largo.jpg" alt="Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai" />
+                                </div>
+                                <div className="titulo-listado">
+                                    <h2>
+                                        Bunny Girl Senpai <span className="episodio">Episodio 8</span>
+                                    </h2>
+                                    <h3>"Que la lluvia nocturna se lo lleve todo"</h3>
+                                    <p>22 / Noviembre / 2018</p>
+                                </div>
+                            </div>
+                        </Link>
+
+                        <div className="clearfix"></div>
+
+                        <Link to="/ver/seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai/cap9" className="link-lista" >
+                            <div className="contenido-listado">
+                                <div className="img-listado">
+                                    <img src="https://i.ibb.co/gz1tt9V/seishun-buta-yarou-wa-bunny-girl-senpai-no-yume-wo-minai-largo.jpg" alt="Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai" />
+                                </div>
+                                <div className="titulo-listado">
+                                    <h2>
+                                        Bunny Girl Senpai <span className="episodio">Episodio 9</span>
+                                    </h2>
+                                    <h3>"Sister Panic"</h3>
+                                    <p>29 / Noviembre / 2018</p>
+                                </div>
+                            </div>
+                        </Link>
+
+                        <div className="clearfix"></div>
+
+                        <Link to="/ver/seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai/cap10" className="link-lista" >
+                            <div className="contenido-listado">
+                                <div className="img-listado">
+                                    <img src="https://i.ibb.co/gz1tt9V/seishun-buta-yarou-wa-bunny-girl-senpai-no-yume-wo-minai-largo.jpg" alt="Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai" />
+                                </div>
+                                <div className="titulo-listado">
+                                    <h2>
+                                        Bunny Girl Senpai <span className="episodio">Episodio 10</span>
+                                    </h2>
+                                    <h3>"La juventud es una paradoja"</h3>
+                                    <p>06 / Diciembre / 2018</p>
+                                </div>
+                            </div>
+                        </Link>
+
+                        <div className="clearfix"></div>
+
+                        <Link to="/ver/seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai/cap11" className="link-lista" >
+                            <div className="contenido-listado">
+                                <div className="img-listado">
+                                    <img src="https://i.ibb.co/gz1tt9V/seishun-buta-yarou-wa-bunny-girl-senpai-no-yume-wo-minai-largo.jpg" alt="Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai" />
+                                </div>
+                                <div className="titulo-listado">
+                                    <h2>
+                                        Bunny Girl Senpai <span className="episodio">Episodio 11</span>
+                                    </h2>
+                                    <h3>"La misión de Kaede"</h3>
+                                    <p>13 / Diciembre / 2018</p>
+                                </div>
+                            </div>
+                        </Link>
+
+                        <div className="clearfix"></div>
+
+                        <Link to="/ver/seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai/cap12" className="link-lista" >
+                            <div className="contenido-listado">
+                                <div className="img-listado">
+                                    <img src="https://i.ibb.co/gz1tt9V/seishun-buta-yarou-wa-bunny-girl-senpai-no-yume-wo-minai-largo.jpg" alt="Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai" />
+                                </div>
+                                <div className="titulo-listado">
+                                    <h2>
+                                        Bunny Girl Senpai <span className="episodio">Episodio 12</span>
+                                    </h2>
+                                    <h3>"Vivo en un sueño del que no puedo despertar"</h3>
+                                    <p>20 / Diciembre / 2018</p>
+                                </div>
+                            </div>
+                        </Link>
+
+                        <div className="clearfix"></div>
+
+                        <Link to="/ver/seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai/cap13" className="link-lista" >
+                            <div className="contenido-listado">
+                                <div className="img-listado">
+                                    <img src="https://i.ibb.co/gz1tt9V/seishun-buta-yarou-wa-bunny-girl-senpai-no-yume-wo-minai-largo.jpg" alt="Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai" />
+                                </div>
+                                <div className="titulo-listado">
+                                    <h2>
+                                        Bunny Girl Senpai <span className="episodio">Episodio 13</span>
+                                    </h2>
+                                    <h3>"El amanecer de una noche eterna"</h3>
+                                    <p>27 / Diciembre / 2018</p>
+                                </div>
+                            </div>
+                        </Link>
+
+                        
+                    </div>
+                    <div className="list-arrow">
+                        <i class="fas fa-chevron-down"></i>
                     </div>
                 </div>
             </div>
