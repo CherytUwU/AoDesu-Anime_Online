@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+const urlCap = "/ver/seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai/cap"
+
 const BunnyGirlSenpai = () => {
     return (
         <main className="main-caps">
@@ -39,8 +41,7 @@ const BunnyGirlSenpai = () => {
                         <h1><i className="fas fa-list"></i> Listado de episodios</h1>
                     </div>
                     <div className="listado">
-                        <Link to="/ver/seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai/cap1" className="link-lista" >
-                            <div className="contenido-listado">
+                        <Link to={urlCap + "1"} className="link-lista" >                            <div className="contenido-listado">
                                 <div className="img-listado">
                                     <img src="https://i.ibb.co/gz1tt9V/seishun-buta-yarou-wa-bunny-girl-senpai-no-yume-wo-minai-largo.jpg" alt="Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai" />
                                 </div>
@@ -56,7 +57,7 @@ const BunnyGirlSenpai = () => {
 
                         <div className="clearfix"></div>
 
-                        <Link to="/ver/seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai/cap2" className="link-lista" >
+                        <Link to={urlCap + "2"} className="link-lista" >
                             <div className="contenido-listado">
                                 <div className="img-listado">
                                     <img src="https://i.ibb.co/gz1tt9V/seishun-buta-yarou-wa-bunny-girl-senpai-no-yume-wo-minai-largo.jpg" alt="Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai" />
@@ -73,7 +74,7 @@ const BunnyGirlSenpai = () => {
 
                         <div className="clearfix"></div>
 
-                        <Link to="/ver/seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai/cap3" className="link-lista" >
+                        <Link to={urlCap + "3"} className="link-lista" >
                             <div className="contenido-listado">
                                 <div className="img-listado">
                                     <img src="https://i.ibb.co/gz1tt9V/seishun-buta-yarou-wa-bunny-girl-senpai-no-yume-wo-minai-largo.jpg" alt="Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai" />
@@ -90,7 +91,7 @@ const BunnyGirlSenpai = () => {
 
                         <div className="clearfix"></div>
 
-                        <Link to="/ver/seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai/cap4" className="link-lista" >
+                        <Link to={urlCap + "4"} className="link-lista" >
                             <div className="contenido-listado">
                                 <div className="img-listado">
                                     <img src="https://i.ibb.co/gz1tt9V/seishun-buta-yarou-wa-bunny-girl-senpai-no-yume-wo-minai-largo.jpg" alt="Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai" />
@@ -107,7 +108,7 @@ const BunnyGirlSenpai = () => {
 
                         <div className="clearfix"></div>
 
-                        <Link to="/ver/seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai/cap5" className="link-lista" >
+                        <Link to={urlCap + "5"} className="link-lista" >
                             <div className="contenido-listado">
                                 <div className="img-listado">
                                     <img src="https://i.ibb.co/gz1tt9V/seishun-buta-yarou-wa-bunny-girl-senpai-no-yume-wo-minai-largo.jpg" alt="Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai" />
@@ -124,7 +125,7 @@ const BunnyGirlSenpai = () => {
 
                         <div className="clearfix"></div>
 
-                        <Link to="/ver/seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai/cap6" className="link-lista" >
+                        <Link to={urlCap + "6"} className="link-lista" >
                             <div className="contenido-listado">
                                 <div className="img-listado">
                                     <img src="https://i.ibb.co/gz1tt9V/seishun-buta-yarou-wa-bunny-girl-senpai-no-yume-wo-minai-largo.jpg" alt="Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai" />
@@ -141,7 +142,7 @@ const BunnyGirlSenpai = () => {
 
                         <div className="clearfix"></div>
 
-                        <Link to="/ver/seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai/cap7" className="link-lista" >
+                        <Link to={urlCap + "7"} className="link-lista" >
                             <div className="contenido-listado">
                                 <div className="img-listado">
                                     <img src="https://i.ibb.co/gz1tt9V/seishun-buta-yarou-wa-bunny-girl-senpai-no-yume-wo-minai-largo.jpg" alt="Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai" />
@@ -158,7 +159,7 @@ const BunnyGirlSenpai = () => {
 
                         <div className="clearfix"></div>
 
-                        <Link to="/ver/seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai/cap8" className="link-lista" >
+                        <Link to={urlCap + "8"} className="link-lista" >
                             <div className="contenido-listado">
                                 <div className="img-listado">
                                     <img src="https://i.ibb.co/gz1tt9V/seishun-buta-yarou-wa-bunny-girl-senpai-no-yume-wo-minai-largo.jpg" alt="Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai" />
@@ -175,7 +176,7 @@ const BunnyGirlSenpai = () => {
 
                         <div className="clearfix"></div>
 
-                        <Link to="/ver/seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai/cap9" className="link-lista" >
+                        <Link to={urlCap + "9"} className="link-lista" >
                             <div className="contenido-listado">
                                 <div className="img-listado">
                                     <img src="https://i.ibb.co/gz1tt9V/seishun-buta-yarou-wa-bunny-girl-senpai-no-yume-wo-minai-largo.jpg" alt="Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai" />
@@ -192,7 +193,7 @@ const BunnyGirlSenpai = () => {
 
                         <div className="clearfix"></div>
 
-                        <Link to="/ver/seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai/cap10" className="link-lista" >
+                        <Link to={urlCap + "10"} className="link-lista" >
                             <div className="contenido-listado">
                                 <div className="img-listado">
                                     <img src="https://i.ibb.co/gz1tt9V/seishun-buta-yarou-wa-bunny-girl-senpai-no-yume-wo-minai-largo.jpg" alt="Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai" />
@@ -209,7 +210,7 @@ const BunnyGirlSenpai = () => {
 
                         <div className="clearfix"></div>
 
-                        <Link to="/ver/seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai/cap11" className="link-lista" >
+                        <Link to={urlCap + "11"} className="link-lista" >
                             <div className="contenido-listado">
                                 <div className="img-listado">
                                     <img src="https://i.ibb.co/gz1tt9V/seishun-buta-yarou-wa-bunny-girl-senpai-no-yume-wo-minai-largo.jpg" alt="Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai" />
@@ -226,7 +227,7 @@ const BunnyGirlSenpai = () => {
 
                         <div className="clearfix"></div>
 
-                        <Link to="/ver/seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai/cap12" className="link-lista" >
+                        <Link to={urlCap + "12"} className="link-lista" >
                             <div className="contenido-listado">
                                 <div className="img-listado">
                                     <img src="https://i.ibb.co/gz1tt9V/seishun-buta-yarou-wa-bunny-girl-senpai-no-yume-wo-minai-largo.jpg" alt="Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai" />
@@ -243,7 +244,7 @@ const BunnyGirlSenpai = () => {
 
                         <div className="clearfix"></div>
 
-                        <Link to="/ver/seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai/cap13" className="link-lista" >
+                        <Link to={urlCap + "13"} className="link-lista" >
                             <div className="contenido-listado">
                                 <div className="img-listado">
                                     <img src="https://i.ibb.co/gz1tt9V/seishun-buta-yarou-wa-bunny-girl-senpai-no-yume-wo-minai-largo.jpg" alt="Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai" />

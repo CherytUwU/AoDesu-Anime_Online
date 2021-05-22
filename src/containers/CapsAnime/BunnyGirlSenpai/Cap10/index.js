@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const urlDefecto = "/ver/seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai/cap"
 
-const BunnyGirlSenpaiCap1 = () => {
+const BunnyGirlSenpaiCap10 = () => {
     return (
         <main className="main-caps">
             <div className="container-caps">
@@ -17,23 +17,27 @@ const BunnyGirlSenpaiCap1 = () => {
                         </div>
 
                         <div className="video">
-                            <iframe src="https://www.fembed.com/v/3pwrdhm8p7pl5rr" frameborder="0" title="Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai Cap. 1" allowfullscreen></iframe>
+                            <iframe src="https://www.fembed.com/v/em8zrb-483z1w8y" frameborder="0" title="Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai Cap. 2" allowfullscreen></iframe>
                         </div>
 
                         <div className="title-cap">
                             <h1>
-                                Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai Cap. 1
+                                Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai Cap. 10
                             </h1>
                         </div>
 
                         <div className="change-cap">
+                            <Link to={urlDefecto + "9"} className="links-caps">
+                                <i className="fas fa-angle-double-right"></i>
+                                Anterior Capitulo
+                            </Link>
 
                             <Link to="/anime/seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai" className="links-caps">
                                 <i className="fas fa-list"></i>
                                 Lista De Capitulos
                             </Link>
 
-                            <Link to={urlDefecto + "2"} className="links-caps">
+                            <Link to={urlDefecto + "11"} className="links-caps">
                                 <i className="fas fa-angle-double-right"></i>
                                 Siguiente Captiulo
                             </Link>
@@ -45,4 +49,4 @@ const BunnyGirlSenpaiCap1 = () => {
     )
 }
 
-export default BunnyGirlSenpaiCap1
+export default BunnyGirlSenpaiCap10

@@ -440,6 +440,7 @@ nav h2 a{
 }
 
 .contenedor-contenido {
+  position: relative;
   width: 200px;
   height: 300px;
   display: inline-grid;
@@ -510,6 +511,7 @@ nav h2 a{
   font-size: 16px;
   background: #121921ab;
   border-radius: 5px 5px 0 0;
+  bottom: 0;
 }
 
 .title-contenido-c {
@@ -929,6 +931,85 @@ background: var(--extra-color-dark);
   font-size: 32px;
 }
 
+/* ////////////////////////////// MAIN CAPS //////////////////////////// */
+.container-caps{
+  width: 100%;
+  background: rgb(17, 23, 32);
+  background: radial-gradient(circle, rgba(28, 40,51,1), #121921 70%);
+  padding: 30px 0;
+}
+
+.container-caps-B{
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.container-video{
+  display: inline-block;
+  white-space: nowrap;
+  width: 100%;
+  height: 720px;
+}
+
+.btn-opcion {
+  margin: 0;
+  padding: 10px 0;
+  background: var(--primary-color-dark);
+  border-radius: 5px 5px 0 0;
+}
+
+.btn-opcion button{
+  background: var(--extra-color-dark-2);
+  color: var(--font-color-dark);
+  text-align: center;
+  outline: none;
+  border: 1px solid var(--primary-color-dark);
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 1px 5px 0px var(--secondary-color-dark);
+  -moz-box-shadow: 0px 1px 5px 0px var(--secondary-color-dark);
+  box-shadow: 0px 1px 5px 0px var(--secondary-color-dark);
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.links-caps i {
+  margin: 0 5px;
+}
+
+.btn-opcion button:hover{
+  background: var(--extra-color-dark-3);
+}
+
+.change-cap a{
+  background: var(--extra-color-dark-2);
+  color: var(--font-color-dark);
+  text-decoration: none;
+  padding: 10px 5px;
+  margin-right: 10px;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+.change-cap a:hover{
+  background: var(--extra-color-dark-3);
+}
+
+.btn-opcion p{
+  margin: 0;
+  padding: 0 4px;
+  font-size: 16px;
+}
+
+.title-cap h1{
+  font-weight: 600;
+  font-size: 22px;
+  margin: 10px 0 20px;
+}
+
+.video iframe{
+  width: 100%;
+  height: 563px;
+}
 /* ////////////////////////////// FOOOTER ////////////////////////////// */
 /* ////////////////////////////// Jeisson ////////////////////////////// */
 
