@@ -67,7 +67,7 @@ const AoDesuApp = () =>
     <AppRoute path="/ver/seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai/cap12" exact component={BunnyGirlSenpaiCap12} layout={VerAnimeLayout}></AppRoute>
     <AppRoute path="/ver/seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai/cap13" exact component={BunnyGirlSenpaiCap13} layout={VerAnimeLayout}></AppRoute>
 
-    <Route component={NotFound}/>
+    <Route component={NotFound} layout={MainLayout} />
   </Switch>
   </Router>
 

@@ -30,12 +30,12 @@ const BunnyGirlSenpaiCap1 = () => {
 
                             <Link to="/anime/seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai" className="links-caps">
                                 <i className="fas fa-list"></i>
-                                Lista De Capitulos
+                                <span className="text-caps-extra">Lista De Capitulos</span>
                             </Link>
 
                             <Link to={urlDefecto + "2"} className="links-caps">
                                 <i className="fas fa-angle-double-right"></i>
-                                Siguiente Captiulo
+                                <span className="text-caps-extra">Siguiente Captiulo</span>
                             </Link>
                         </div>
                     </div>
