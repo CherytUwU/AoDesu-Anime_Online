@@ -2,13 +2,16 @@
 import React from 'react'
 import { 
   BrowserRouter as Router,
-  Switch } from 'react-router-dom'
+  Route,
+  Switch
+ } from 'react-router-dom'
 import AppRoute from './AppRoute'
 
 // Pages
 import Home from '../containers/public/Home'
 import Anime from '../containers/Anime/Home'
 import DashboardHome from '../containers/dashboard/Home'
+import NotFound from '../containers/NotFound'
 
 // Pages Vista Anime
 import MahouShoujoSite from '../containers/CapsAnime/MahouShoujoSite'
@@ -43,8 +46,8 @@ import VerAnimeLayout from '../layouts/VerAnime'
 const AoDesuApp = () =>
 <Router>
   <Switch>
-    <AppRoute path='/en_emision' exact component={DashboardHome} layout={Emision}/>
     <AppRoute path='/' exact component={Home} layout={MainLayout}/>
+    <AppRoute path='/en_emision' exact component={DashboardHome} layout={Emision}/> 
     <AppRoute path="/anime" exact component={Anime} layout={AnimeLayout} />
 
     <AppRoute path="/anime/mahou_shoujo_site" exact component={MahouShoujoSite} layout={CapsAnimeLayout} />
@@ -64,6 +67,7 @@ const AoDesuApp = () =>
     <AppRoute path="/ver/seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai/cap12" exact component={BunnyGirlSenpaiCap12} layout={VerAnimeLayout}></AppRoute>
     <AppRoute path="/ver/seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai/cap13" exact component={BunnyGirlSenpaiCap13} layout={VerAnimeLayout}></AppRoute>
 
+    <Route component={NotFound}/>
   </Switch>
   </Router>
 
