@@ -1169,7 +1169,6 @@ body.light #infobox3 button{
   text-shadow: 0px 0px 5px rgb(255, 0, 0);
 }
 
-
 body.light{
   background: var(--primary-color-light);
 }
@@ -1194,6 +1193,170 @@ body.light .emision a{
 
 body.light .emision:hover a{
   color: var(--color-red-general);
+}
+
+/* MEDIA QUERY's Anime" */
+body.light .container-info-list-e {
+  background: rgb(17,23,32);
+  background: linear-gradient(180deg, #808B96, #f3f3f3 10%);
+}
+
+body.light .container-list-e{
+  background: var(--primary-color-light);
+  color: var(--font-color-light);
+}
+
+body.light .name-list h1 i,
+body.light .cronologia h1 i{
+  color: var(--branch-principal-light);
+}
+
+body.light .name-list{
+  border-bottom: 1px solid var(--branch-principal-light);
+}
+
+/* Ponemos un color de fondo y redondeamos las esquinas del thumb */
+body.light .listado::-webkit-scrollbar-thumb {
+  background: var(--branch-principal-light);
+}
+
+/* Cambiamos el fondo y agregamos una sombra cuando esté en hover */
+body.light .listado::-webkit-scrollbar-thumb:hover {
+  background: #dd0000;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* Cambiamos el fondo cuando esté en active */
+body.light .listado::-webkit-scrollbar-thumb:active {
+  background-color: #c00000;
+}
+
+/* Ponemos un color de fondo y redondeamos las esquinas del track */
+body.light .listado::-webkit-scrollbar-track {
+  background: var(--extra-color-light);
+}
+
+/* Cambiamos el fondo cuando esté en active o hover */
+body.light .listado::-webkit-scrollbar-track:hover,
+body.light .listado::-webkit-scrollbar-track:active {
+background: var(--extra-color-light);
+}
+
+body.light .link-lista:hover .contenido-listado {
+  background: var(--secundary-color-light);
+}
+body.light .contenido-info{
+  color: var(--font-color-light);
+}
+
+body.light .plataforma-upload{
+  color: var(--branch-principal-light);
+}
+
+body.light .informacion{
+  border-left: 4px solid var(--branch-principal-light);
+}
+
+body.light .generos span{
+  background: var(--font-color-dark);
+  border: 1px solid #ff000044;
+}
+
+body.light .info-temporada-upload-invierno{
+  color: var(--color-temporada-invierno);
+    border: 1px solid var(--branch-principal);
+    border-radius: 4px;
+    padding: 5px;
+    background: var(--extra-color-dark-3);
+}
+
+body.light .info-temporada-upload-primavera{
+  color: var(--color-temporada-primavera);
+    border: 1px solid var(--branch-principal);
+    border-radius: 4px;
+    padding: 5px;
+    background: var(--extra-color-dark-3);
+}
+
+body.light .titulo-listado h2{
+  color: var(--font-color-light);
+}
+
+body.light .titulo-listado h3{
+  color: #444;
+}
+
+body.light .content-cronologia h2{
+  color: var(--font-color-light);
+}
+
+body.light .link-cronologia:hover .content-cronologia h2,
+body.light .link-cronologia:hover .content-cronologia p,
+body.light .content-cronologia p {
+  color: var(--font-color-light-2);
+}
+
+body.light .cronologia h1,
+body.light .recomendados h1{
+  color: var(--font-color-light);
+}
+
+body.light .cronologia i,
+body.light .recomendados i{
+  color: var(--branch-principal-light);
+}
+
+body.light .content-cronologia h2,
+body.light .content-recomendados h2 {
+  color: var(--font-color-light);
+}
+
+body.light .content-cronologia p,
+body.light .content-recomendados p {
+  color: var(--font-color-light);
+}
+
+body.light .list-arrow {
+  background: var(--secundary-color-light);
+  border-top: 1px solid var(--branch-principal-light);
+}
+
+body.light .list-arrow i{
+  color: var(--branch-principal-light);
+}
+
+/* BODY LIGHT CAPS ANimes */
+body.light .container-caps {
+  background: #cbcbcb;
+  background: radial-gradient(circle, rgb(255 255 255), #cbcbcb 70%);
+}
+
+body.light .title-cap h1{
+  color: var(--font-color-light);
+}
+
+body.light .btn-opcion{
+  background: var(--primary-color-light);
+}
+
+body.light .btn-opcion button {
+  background: var(--secundary-color-light);
+  color: var(--font-color-dark);
+  outline: none;
+  border: 1px solid var(--font-color-dark-2);
+  border-radius: 5px;
+  box-shadow: 0px 1px 5px 0px var(--font-color-dark-2);
+}
+
+body.light .btn-opcion p{
+  color: var(--primary-color-dark);
+}
+
+body.light .cronologia h1, 
+body.light .recomendados h1 {
+  padding: 5px 0;
+  border-bottom: 1px solid var(--branch-principal-light);
+  font-size: 20px;
 }
 
 /* ////////////////////////////// MEDIA QUERY'S ////////////////////////////// */
@@ -1769,6 +1932,15 @@ body.light .emision:hover a{
     height: calc(506px - 225px - 28px - 12px);
   }
 
+  .plataforma-upload, 
+  .fecha-upload, 
+  .temporada-upload, 
+  .info-temporada-upload-invierno, 
+  .info-temporada-upload-primavera {
+    margin: 0px;
+    padding: 5px;
+  }
+
   .title-main,
   .title-main-categorias {
     font-size: 24px;
@@ -1832,6 +2004,7 @@ body.light .emision:hover a{
   .informacion{
     font-size: 11.2px;
     border-left: 2px solid var(--branch-principal);
+    border-radius: 2px;
   }
 
   .generos{

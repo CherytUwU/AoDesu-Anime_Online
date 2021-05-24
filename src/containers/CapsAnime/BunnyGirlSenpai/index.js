@@ -24,9 +24,9 @@ const BunnyGirlSenpai = () => {
                         </h3>
                             
                         <h3 className="generos">
-                          <span>Comedia</span>
-                          <span>Escolar</span>
-                          <span>Romance</span>
+                          <span id="comedia">Comedia</span>
+                          <span id="escolar">Escolar</span>
+                          <span id="romance">Romance</span>
                         </h3>
                             
                         <p>
@@ -41,7 +41,8 @@ const BunnyGirlSenpai = () => {
                         <h1><i className="fas fa-list"></i> Listado de episodios</h1>
                     </div>
                     <div className="listado">
-                        <Link to={urlCap + "1"} className="link-lista" >                            <div className="contenido-listado">
+                        <Link to={urlCap + "1"} className="link-lista" >  
+                            <div className="contenido-listado">
                                 <div className="img-listado">
                                     <img src="https://i.ibb.co/gz1tt9V/seishun-buta-yarou-wa-bunny-girl-senpai-no-yume-wo-minai-largo.jpg" alt="Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai" />
                                 </div>

@@ -16,7 +16,9 @@ import NotFound from '../containers/NotFound'
 // Pages Vista Anime
 import MahouShoujoSite from '../containers/CapsAnime/MahouShoujoSite'
 import BunnyGirlSenpai from '../containers/CapsAnime/BunnyGirlSenpai'
+import BokuNoHeroOne from '../containers/CapsAnime/BokuNoHeroSeasonOne'
 
+// Bunny Girl Senpai
 import BunnyGirlSenpaiCap1 from '../containers/CapsAnime/BunnyGirlSenpai/Cap1'
 import BunnyGirlSenpaiCap2 from '../containers/CapsAnime/BunnyGirlSenpai/Cap2'
 import BunnyGirlSenpaiCap3 from '../containers/CapsAnime/BunnyGirlSenpai/Cap3'
@@ -52,20 +54,21 @@ const AoDesuApp = () =>
 
     <AppRoute path="/anime/mahou_shoujo_site" exact component={MahouShoujoSite} layout={CapsAnimeLayout} />
     <AppRoute path="/anime/seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai" component={BunnyGirlSenpai} layout={CapsAnimeLayout} />
+    <AppRoute path="/anime/boku_no_hero_academia_season_one" component={BokuNoHeroOne} layout={CapsAnimeLayout} />
 
-    <AppRoute path="/ver/seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai/cap1" exact component={BunnyGirlSenpaiCap1} layout={VerAnimeLayout}></AppRoute>
-    <AppRoute path="/ver/seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai/cap2" exact component={BunnyGirlSenpaiCap2} layout={VerAnimeLayout}></AppRoute>
-    <AppRoute path="/ver/seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai/cap3" exact component={BunnyGirlSenpaiCap3} layout={VerAnimeLayout}></AppRoute>
-    <AppRoute path="/ver/seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai/cap4" exact component={BunnyGirlSenpaiCap4} layout={VerAnimeLayout}></AppRoute>
-    <AppRoute path="/ver/seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai/cap5" exact component={BunnyGirlSenpaiCap5} layout={VerAnimeLayout}></AppRoute>
-    <AppRoute path="/ver/seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai/cap6" exact component={BunnyGirlSenpaiCap6} layout={VerAnimeLayout}></AppRoute>
-    <AppRoute path="/ver/seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai/cap7" exact component={BunnyGirlSenpaiCap7} layout={VerAnimeLayout}></AppRoute>
-    <AppRoute path="/ver/seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai/cap8" exact component={BunnyGirlSenpaiCap8} layout={VerAnimeLayout}></AppRoute>
-    <AppRoute path="/ver/seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai/cap9" exact component={BunnyGirlSenpaiCap9} layout={VerAnimeLayout}></AppRoute>
-    <AppRoute path="/ver/seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai/cap10" exact component={BunnyGirlSenpaiCap10} layout={VerAnimeLayout}></AppRoute>
-    <AppRoute path="/ver/seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai/cap11" exact component={BunnyGirlSenpaiCap11} layout={VerAnimeLayout}></AppRoute>
-    <AppRoute path="/ver/seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai/cap12" exact component={BunnyGirlSenpaiCap12} layout={VerAnimeLayout}></AppRoute>
-    <AppRoute path="/ver/seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai/cap13" exact component={BunnyGirlSenpaiCap13} layout={VerAnimeLayout}></AppRoute>
+    <AppRoute path="/ver/seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai/cap1" exact component={BunnyGirlSenpaiCap1} layout={VerAnimeLayout} />
+    <AppRoute path="/ver/seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai/cap2" exact component={BunnyGirlSenpaiCap2} layout={VerAnimeLayout} />
+    <AppRoute path="/ver/seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai/cap3" exact component={BunnyGirlSenpaiCap3} layout={VerAnimeLayout} />
+    <AppRoute path="/ver/seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai/cap4" exact component={BunnyGirlSenpaiCap4} layout={VerAnimeLayout} />
+    <AppRoute path="/ver/seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai/cap5" exact component={BunnyGirlSenpaiCap5} layout={VerAnimeLayout} />
+    <AppRoute path="/ver/seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai/cap6" exact component={BunnyGirlSenpaiCap6} layout={VerAnimeLayout} />
+    <AppRoute path="/ver/seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai/cap7" exact component={BunnyGirlSenpaiCap7} layout={VerAnimeLayout} />
+    <AppRoute path="/ver/seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai/cap8" exact component={BunnyGirlSenpaiCap8} layout={VerAnimeLayout} />
+    <AppRoute path="/ver/seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai/cap9" exact component={BunnyGirlSenpaiCap9} layout={VerAnimeLayout} />
+    <AppRoute path="/ver/seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai/cap10" exact component={BunnyGirlSenpaiCap10} layout={VerAnimeLayout} />
+    <AppRoute path="/ver/seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai/cap11" exact component={BunnyGirlSenpaiCap11} layout={VerAnimeLayout} />
+    <AppRoute path="/ver/seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai/cap12" exact component={BunnyGirlSenpaiCap12} layout={VerAnimeLayout} />
+    <AppRoute path="/ver/seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai/cap13" exact component={BunnyGirlSenpaiCap13} layout={VerAnimeLayout} />
 
     <Route component={NotFound} layout={MainLayout} />
   </Switch>

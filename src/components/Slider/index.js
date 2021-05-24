@@ -18,7 +18,7 @@ const urlVerOpcion2 = "/ver/koe_no_katachi";
 // URL LISTADO CAPS
 
 const urlAnimeOpcion1 = "/anime/mahou_shoujo_site";
-const urlAnimeOpcion2 = "/anime/boku_no_hero";
+const urlAnimeOpcion2 = "/anime/boku_no_hero_academia_season_one";
 //const urlAnimeOpcion3 = "/anime/X";
 //const urlAnimeOpcion4 = "/anime/X";
 
