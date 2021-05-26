@@ -510,7 +510,7 @@ nav h2 a{
   max-width: 200px;
   font-size: 16px;
   background: #121921ab;
-  border-radius: 5px 5px 0 0;
+  border-radius: 0 0 5px 5px;
   bottom: 0;
 }
 

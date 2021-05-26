@@ -79,6 +79,20 @@ const Home = () => {
               </div>
             </div>
           </Link>
+
+          <Link to="/anime/boku_no_hero_academia_season_one" className="link-contenido">
+            <div className="contenedor-contenido">
+              <div className="hover-interface">
+                <div className="arrow-interface">
+                  <i className="far fa-arrow-alt-circle-right"></i>
+                </div>
+              </div>
+              <img loading="lazy" src="https://i.ibb.co/QXjvz4k/boku-no-hero-season1-normal.jpg" title="Boku no Hero Academia" alt="Boku no Hero Academia" />
+              <div className="title-contenido">
+                <p>Boku no Hero Academia</p>
+              </div>
+            </div>
+          </Link>
         </div>
       </div>
 

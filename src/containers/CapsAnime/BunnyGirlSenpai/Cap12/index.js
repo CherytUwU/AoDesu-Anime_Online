@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import OpcionesVideo from '../../../../components/OpcionesVideo'
 
 const urlDefecto = "/ver/seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai/cap"
 
@@ -9,12 +10,7 @@ const BunnyGirlSenpaiCap12 = () => {
             <div className="container-caps">
                 <div className="container-caps-B">
                     <div className="container-video">
-                        <div className="btn-opcion">
-                            <button data-title="Fembed">
-                                <p>Opción</p>
-                                <p>1</p>
-                            </button>
-                        </div>
+                        <OpcionesVideo />
 
                         <div className="video">
                             <iframe src="https://www.fembed.com/v/jy6n5ad5m1krlpp" frameborder="0" title="Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai Cap. 2" allowfullscreen></iframe>
@@ -22,7 +18,7 @@ const BunnyGirlSenpaiCap12 = () => {
 
                         <div className="title-cap">
                             <h1>
-                                Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai Cap. 11
+                                Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai Cap. 12
                             </h1>
                         </div>
 
