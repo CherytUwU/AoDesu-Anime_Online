@@ -10,6 +10,20 @@ const Home = () => {
           <h3 className="title-main"><i className="fas fa-fire"></i> Populares Ahora</h3>
         </div>
         <div className="contenido">
+        <Link to="/anime/boku_no_hero_academia_season_one" className="link-contenido">
+            <div className="contenedor-contenido" id="BokunoHeroAcademiaSeasonOne">
+              <div className="hover-interface">
+                <div className="arrow-interface">
+                  <i className="far fa-arrow-alt-circle-right"></i>
+                </div>
+              </div>
+              <img loading="lazy" src="https://i.ibb.co/QXjvz4k/boku-no-hero-season1-normal.jpg" title="Boku no Hero Academia" alt="Boku no Hero Academia" />
+              <div className="title-contenido">
+                <p>Boku no Hero Academia</p>
+              </div>
+            </div>
+          </Link>
+
           <Link to="/anime/kimetsu_no_yaiba" className="link-contenido">
             <div className="contenedor-contenido">
               <div className="hover-interface">
@@ -76,20 +90,6 @@ const Home = () => {
               <img loading="lazy" src="https://i.ibb.co/NS2gJhs/Kono-Subarashii-Sekai-ni-Shukufuku-wo-season2-normal.jpg" title="Kono Subarashii Sekai ni Shukufuku wo! 2" alt="Kono Subarashii Sekai ni Shukufuku wo! 2" />
               <div className="title-contenido">
                 <p>Kono Subarashii Sekai ni Shukufuku wo! 2</p>
-              </div>
-            </div>
-          </Link>
-
-          <Link to="/anime/boku_no_hero_academia_season_one" className="link-contenido">
-            <div className="contenedor-contenido">
-              <div className="hover-interface">
-                <div className="arrow-interface">
-                  <i className="far fa-arrow-alt-circle-right"></i>
-                </div>
-              </div>
-              <img loading="lazy" src="https://i.ibb.co/QXjvz4k/boku-no-hero-season1-normal.jpg" title="Boku no Hero Academia" alt="Boku no Hero Academia" />
-              <div className="title-contenido">
-                <p>Boku no Hero Academia</p>
               </div>
             </div>
           </Link>

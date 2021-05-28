@@ -546,6 +546,18 @@ nav h2 a{
   color: var(--font-color-dark);
 }
 
+#BokunoHeroAcademiaSeasonOne::after{
+  content: "Top 1";
+  position: absolute;
+  top: 0;
+  color: var(--font-color-dark);
+  text-align: center;
+  width: 100%;
+  height: 25px;
+  background: var(--color-red-general);
+  border-bottom: 1px solid var(--font-color-dark);
+}
+
 /* ////////////////////////////// MAIN ANIME ////////////////////////////// */
 .contenedor-contenido-categorias{
   width: 200px;
@@ -828,7 +840,7 @@ background: var(--extra-color-dark);
 .titulo-listado{
   float: left;
   margin: 10px 5px;
-  width: 425px;
+  width: 700px;
 }
 
 .titulo-listado h2,
@@ -1010,6 +1022,116 @@ background: var(--extra-color-dark);
   width: 100%;
   height: 563px;
 }
+
+/* ////////////////////////////// MAIN DEV NOTES /////////////////////////// */
+.main-devnotes{
+  width: 100%;
+}
+
+.text-resaltado{
+  color: var(--branch-principal);
+}
+
+body.light .text-resaltado{
+  color: var(--branch-principal-light);
+}
+
+.contenido-indexado{
+  width: calc(100% - 20px);
+  background: var(--extra-color-dark);
+  margin: 25px 0;
+  padding: 10px;
+}
+
+.centrador{
+  margin: 0 auto;
+  width: 1000px;
+}
+
+.contenido-devnotes{
+  width: 100%;
+  margin: 20px auto;
+}
+
+.contenido-devnotes h1{
+  margin: 20px 0;
+}
+
+.contenido-devnotes h2{
+  margin: 0;
+}
+
+.contenido-devnotes p{
+  margin: 10px 0;
+}
+
+.contenido-devnotes ul{
+  margin: 10px 0 30px;
+}
+
+.contenido-devnotes a{
+  color: var(--font-color-dark-2);
+  text-decoration: underline;
+}
+
+.contenido-devnotes a:hover{
+  color: var(--font-color-dark);
+}
+
+.autor{
+  color: var(--branch-principal);
+  font-size: 20px;
+}
+
+body.light .autor{
+  color: var(--branch-principal-light);
+}
+
+body.light .main-devnotes{
+  color: var(--font-color-light);
+}
+
+body.light .contenido-indexado{
+  background: var(--font-color-dark);
+}
+
+body.light .contenido-indexado a,
+body.light .contenido-indexado ul li{
+  color: var(--font-color-light);
+}
+
+body.light .contenido-indexado a:hover,
+body.light .contenido-indexado ul li:hover{
+  color: var(--font-color-dark-3);
+}
+
+.contenido-indexado h1{
+  margin: 5px 10px;
+  border-bottom: 1px solid;
+}
+
+.contenido-indexado a,
+.contenido-indexado ul li{
+  color: var(--font-color-dark-2);
+  list-style: decimal;
+  transition: .1s ease all;
+}
+
+.contenido-indexado a:hover,
+.contenido-indexado ul li:hover{
+  text-decoration: underline;
+  color: var(--extra-color-dark-3);
+  transition: .1s all ease;
+}
+
+body.light .contenido-devnotes a{
+  color: var(--font-color-light);
+}
+
+body.light .contenido-devnotes a:hover{
+  color: var(--extra-color-dark-3);
+}
+
 
 /* ////////////////////////////// ERROR 404 ////////////////////////////// */
 .main-error{
@@ -1605,11 +1727,16 @@ body.light .recomendados h1 {
     margin: 0 auto;
   }
 
+  .img-info{
+    float: none;
+  }
+
   .contenido-info{
     width: 62%;
     height: 316px;
     overflow-x: hidden;
     overflow-y: scroll;
+    float: right;
   }
 
   .img-info{
@@ -1651,6 +1778,10 @@ body.light .recomendados h1 {
   .recomendados{
     width: 530px;
     text-align: left;
+  }
+
+  .centrador{
+    width: 95%;
   }
   
 }
@@ -1991,6 +2122,14 @@ body.light .recomendados h1 {
 
   .img-info h2{
     font-size: 16px;
+  }
+
+  .img-info{
+    float: left;
+  }
+
+  .contenido-info{
+    float: none;
   }
 
   .contenido-info h1{

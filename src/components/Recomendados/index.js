@@ -13,7 +13,7 @@ const Recomendados = () => {
                 </div>
             </Link>
 
-            <Link to="" className="link-recomendados">
+            <Link to="/anime/jibaku_shounen_hanako-kun" className="link-recomendados">
                 <div className="content-recomendados">
                     <img src="https://i.ibb.co/12gpsNH/Jibaku-shonen-hanako-kun-largo.jpg" alt="Jibaku Shounen Hanako-kun" />
                     <h2>Jibaku Shounen Hanako-kun</h2>

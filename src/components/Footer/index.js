@@ -1,5 +1,6 @@
 // Dependencies
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
 
@@ -21,6 +22,10 @@ const Footer = () => {
             <a href="https://twitter.com/DesuAo" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-twitter"></i>
             </a>
+          </div>
+
+          <div className="container-redes">
+            <Link to="/notas-version">Notas de la versión RAlpha 1.0</Link>
           </div>
         </div>
 
