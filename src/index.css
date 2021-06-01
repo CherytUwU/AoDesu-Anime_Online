@@ -547,10 +547,15 @@ nav h2 a{
 .link-contenido{
   width: 200px;
   display: inline-grid;
+  margin-right: 3px;
 }
 
 .link-contenido p{
   color: var(--font-color-dark);
+}
+
+.link-contenido:hover .title-contenido p{
+  display: block;
 }
 
 #BokunoHeroAcademiaSeasonOne::after{
