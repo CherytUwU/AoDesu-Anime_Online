@@ -543,7 +543,6 @@ nav h2 a{
   margin: 0 8px 5px;
   z-index: 21;
   display: none;
-  transition .3s all ease;
   text-align: center;
   font-weight: 500;
 }
