@@ -375,6 +375,16 @@ nav h2 a{
 
 .links-menu a{
   color: #AEB6BF;
+  position:relative;
+}
+
+.links-menu a::after{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 0%;
+  left: 0;
+  border-bottom: 1px solid #fff;
 }
 
 .links-menu:hover a{
@@ -385,8 +395,27 @@ nav h2 a{
   background: var(--primary-color-dark);
 }
 
+.links-menu a:hover::after{
+  content: "";
+  width: 100%;
+  border-bottom: 1px solid #fff;
+  z-index: 9999;
+  bottom: 0;
+  transition: .1s all ease;
+}
+
 .emision a{
   color: var(--branch-principal);
+  position: relative;
+}
+
+.emision a::after{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 0%;
+  left: 0;
+  border-bottom: 1px solid #fff;
 }
 
 .emision:hover a{
@@ -397,10 +426,18 @@ nav h2 a{
   background: var(--primary-color-dark);
 }
 
+.emision a:hover::after{
+  content: "";
+  width: 100%;
+  border-bottom: 1px solid #fff;
+  z-index: 9999;
+  bottom: 0;
+  transition: .1s all ease;
+}
+
 .icon-text{
   display: none;
 }
-
 /* ////////////////////////////// MAIN ////////////////////////////// */
 
 .main{
