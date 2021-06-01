@@ -9,7 +9,8 @@ const OpcionesVideo = () => {
             </button>
 
             <button data-title="Streamium" id="opcion2">
-                <p>Jeisson Gay</p>
+                <p>Opción</p>
+                <p>2</p>
             </button>
         </div>
     )
