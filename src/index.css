@@ -537,7 +537,13 @@ nav h2 a{
 }
 
 .title-contenido p{
-  margin: 5px 0;
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  margin: 0 8px 5px;
+  z-index: 21;
+  display: none;
+  transition .3s all ease;
   text-align: center;
   font-weight: 500;
 }
