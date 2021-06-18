@@ -4,6 +4,14 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+window.onload = detectarCarga;
+function detectarCarga(){
+  var elems = document.getElementsByClassName('background');
+for (var i=0;i<elems.length;i+=1){
+  elems[i].style.display = 'none';
+}
+}
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
