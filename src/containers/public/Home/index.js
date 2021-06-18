@@ -105,7 +105,7 @@ const Home = () => {
         <div className="title">
           <h3 className="title-main"><i className="fas fa-rocket"></i> Nuevos Estrenos</h3>
         </div>
-        <div className="contenido">
+        <div id="todo">
           <Link to="anime/ijiranaide_nagatoro-san" className="recuentosDeLaVida">
             <div class="background"></div>
             <div className="contenedor-contenido">
