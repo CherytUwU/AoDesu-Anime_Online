@@ -639,7 +639,8 @@ nav h2 a{
 
 #todo .accion,
 #todo .comedia,
-#todo .aventuras{
+#todo .aventuras,
+#todo .recuentosDeLaVida{
   position: relative;
   width: 320px;
   height: 190.45px;
