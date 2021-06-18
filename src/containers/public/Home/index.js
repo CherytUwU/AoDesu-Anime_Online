@@ -10,7 +10,7 @@ const Home = () => {
           <h3 className="title-main"><i className="fas fa-fire"></i> Populares Ahora</h3>
         </div>
         <div className="contenido">
-        <Link to="/anime/boku_no_hero_academia_season_one" className="link-contenido">
+        <Link to="/anime/boku_no_hero_academia_season_one" className="accion">
             <div className="contenedor-contenido" id="BokunoHeroAcademiaSeasonOne">
               <div className="hover-interface">
                 <div className="arrow-interface">
@@ -24,7 +24,7 @@ const Home = () => {
             </div>
           </Link>
 
-          <Link to="/anime/kimetsu_no_yaiba" className="link-contenido">
+          <Link to="/anime/kimetsu_no_yaiba" className="accion">
             <div className="contenedor-contenido">
               <div className="hover-interface">
                 <div className="arrow-interface">
@@ -38,7 +38,7 @@ const Home = () => {
             </div>
           </Link>
 
-          <Link to="/anime/kono_subarashii_sekai_ni_shukufuku_wo!" className="link-contenido">
+          <Link to="/anime/kono_subarashii_sekai_ni_shukufuku_wo!" className="comedia">
             <div className="contenedor-contenido">
               <div className="hover-interface">
                 <div className="arrow-interface">
@@ -52,7 +52,7 @@ const Home = () => {
             </div>
           </Link>
 
-          <Link to="/anime/seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai" className="link-contenido">
+          <Link to="/anime/seishun_buta_yarou_wa_bunny_girl_senpai_no_yume_wo_minai" className="recuentosDeLaVida">
             <div className="contenedor-contenido">
               <div className="hover-interface">
                 <div className="arrow-interface">
@@ -66,7 +66,7 @@ const Home = () => {
             </div>
           </Link>
 
-          <Link to="/anime/jibaku_shounen_hanako-kun" className="link-contenido">
+          <Link to="/anime/jibaku_shounen_hanako-kun" className="comedia">
             <div className="contenedor-contenido">
               <div className="hover-interface">
                 <div className="arrow-interface">
@@ -80,7 +80,7 @@ const Home = () => {
             </div>
           </Link>
 
-          <Link to="/anime/kono_subarashii_sekai_ni_shukufuku_wo!_2" className="link-contenido">
+          <Link to="/anime/kono_subarashii_sekai_ni_shukufuku_wo!_2" className="comedia">
             <div className="contenedor-contenido">
               <div className="hover-interface">
                 <div className="arrow-interface">
@@ -101,7 +101,7 @@ const Home = () => {
           <h3 className="title-main"><i className="fas fa-rocket"></i> Nuevos Estrenos</h3>
         </div>
         <div className="contenido">
-          <Link to="anime/ijiranaide_nagatoro-san" className="link-contenido">
+          <Link to="anime/ijiranaide_nagatoro-san" className="recuentosDeLaVida">
             <div className="contenedor-contenido">
               <div className="hover-interface">
                 <div className="arrow-interface">
