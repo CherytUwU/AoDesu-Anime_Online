@@ -93,7 +93,7 @@ const Home = () => {
                 </div>
               </div>
               <img loading="lazy" src="https://i.ibb.co/Qdz12f9/Kono-Subarashii-Sekai-ni-Shukufuku-wo-season2-largo.jpg" class="imgPrincipal" title="Kono Subarashii Sekai ni Shukufuku wo!2" alt="Kono Subarashii Sekai ni Shukufuku wo!2" />
- <div class="title-contenido2">
+ <div class="title-contenido">
                 <p>Kono Subarashii Sekai ni Shukufuku wo! 2</p>
               </div>
             </div>
