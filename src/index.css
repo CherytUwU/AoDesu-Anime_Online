@@ -635,9 +635,8 @@ nav h2 a{
   width: 100%;
 }
 
-/* CONTENEDOORES DE ANIMES */
+/* //////////////////// CONTENEDOORES DE ANIMES //////////////////// */
 
-/* //////////// 2 /////////// */
 .contenedor-contenido {
   position: relative;
   width: 320px;
@@ -715,7 +714,7 @@ nav h2 a{
 .accion:hover .hover-interface,
 .comedia:hover .hover-interface,
 .aventuras:hover .hover-interface,
-recuentosDeLaVida:hover .hover-interface{
+.recuentosDeLaVida:hover .hover-interface{
   display: block;
 }
 
