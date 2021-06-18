@@ -711,14 +711,10 @@ nav h2 a{
   text-shadow: 0px 0px 10px rgb(0, 255, 255);
 }
 
-.link-contenido:hover .hover-interface{
-  display: inline-block;
-  transition: 0.3s all ease;
-}
-
-.link-contenido:hover img{
-  filter: blur(2px);
-  z-index: 10;
+.accion:hover .hover-interface,
+.comedia:hover .hover-interface,
+.recuentosDeLaVida:hover .hover-interface{
+  display: block;
 }
 
 .contenedor-contenido img{
@@ -742,18 +738,8 @@ nav h2 a{
   font-size: 20px;
 }
 
-.link-contenido{
-  width: 200px;
-  display: inline-grid;
-  margin-right: 3px;
-}
-
 .link-contenido p{
   color: var(--font-color-dark);
-}
-
-.link-contenido:hover .title-contenido p{
-  display: block;
 }
 
 #BokunoHeroAcademiaSeasonOne::after{
@@ -766,6 +752,67 @@ nav h2 a{
   height: 25px;
   background: var(--color-red-general);
   border-bottom: 1px solid var(--font-color-dark);
+}
+
+/* Before y afters*/
+.accion:hover .title-contenido2 p,
+.comedia:hover .title-contenido2 p,
+.aventuras:hover .title-contenido2 p{
+  display: block;
+}
+
+.btnContainerCategorias{
+  position: relative;
+  width: 100%;
+}
+
+.accion:hover .contenedor-contenido2::before,
+.comedia:hover .contenedor-contenido2::before,
+.aventuras:hover .contenedor-contenido2::before{
+  content: "" ;
+  width: 100%;
+  height: 100%;
+  transition: .3s all ease;
+}
+
+.accion:hover .contenedor-contenido2,
+.comedia:hover .contenedor-contenido2,
+.aventuras:hover .contenedor-contenido2{
+  border-radius: 1px;
+  box-shadow: 0px 0px 0px 8px #121921;
+  transition: .3s all ease;
+}
+
+.arrow-interface2{
+  width: 92px;
+  margin: 0 auto;
+}
+
+.background {
+  width: 100%;
+  height: calc(100% - 10px);
+  border-radius: 3px;
+  bottom: 0;
+  position: absolute;
+  animation-duration: 10s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-name: preloadAnimation;
+  animation-timing-function: linear;
+  background: #f6f7f8;
+  background: linear-gradient(to right, #2c3e50 8%, #273646  18%, #2c3e50 33%);
+	min-height: 100px;
+  z-index: 2;
+  box-shadow: 8px 8px #283848;
+}
+
+@keyframes preloadAnimation{
+    0%{
+        background-position: -769px 0
+    }
+    100%{
+        background-position: 769px 0
+    }
 }
 
 /* ////////////////////////////// MAIN ANIME ////////////////////////////// */
