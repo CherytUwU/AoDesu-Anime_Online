@@ -9,7 +9,7 @@ const Home = () => {
         <div className="title">
           <h3 className="title-main"><i className="fas fa-fire"></i> Populares Ahora</h3>
         </div>
-        <div className="contenido">
+        <div id="todo">
         <Link to="/anime/boku_no_hero_academia_season_one" className="accion">
             <div class="background"></div>
             <div className="contenedor-contenido" id="BokunoHeroAcademiaSeasonOne">
