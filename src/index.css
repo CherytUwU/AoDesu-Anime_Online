@@ -645,11 +645,11 @@ nav h2 a{
   overflow: hidden;
   box-shadow: 8px 8px #121921;
   transition: .3s all ease;
-} /* YA */
+}
 
 .arrow-interface i{
   text-shadow: 0 0 10px #0ff;
-} /* YA */
+}
 
 .contenedor-contenido::before{
   content: "" ;
@@ -694,7 +694,7 @@ nav h2 a{
   width: 320px;
   height: 190.45px;
   display: inline-grid;
-  margin: 10px;
+  margin: 9px;
   background-image: url('https://emoji.discord.st/emojis/loading.gif');
   background-repeat: no-repeat;
   background-position: center;
