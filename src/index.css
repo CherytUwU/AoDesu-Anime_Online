@@ -1807,16 +1807,6 @@ body.light .recomendados h1 {
     position: unset;
   }
   
-  .background::after {
-    content: "";
-    position: absolute;
-    bottom: 5px;
-    width: calc(100% - 10px);
-    height: 20%;
-    left: 5px;
-    background: #212f3d9c;
-  }
-  
   #todo .accion, 
   #todo .aventuras, 
   #todo .comedia, 
