@@ -701,6 +701,7 @@ nav h2 a{
   display: inline-grid;
   margin: 9px;
   border-radius: 3px;
+  border-bottom: 1px solid #121921;
 }
 
 .hover-interface{
@@ -1734,7 +1735,7 @@ body.light .recomendados h1 {
 @media (max-width: 1023px){
   .background{
     top: 10px;
-    height: 150px;
+    height: 136px;
   }
   
   .container-video{
