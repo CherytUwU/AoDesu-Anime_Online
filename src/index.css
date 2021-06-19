@@ -645,6 +645,7 @@ nav h2 a{
   overflow: hidden;
   box-shadow: 8px 8px #121921;
   transition: .3s all ease;
+  z-index: 5;
 }
 
 .arrow-interface i{
@@ -684,6 +685,10 @@ nav h2 a{
   height: 100%;
   z-index: 54;
   border-radius: 5px;
+}
+
+#todo{
+  text-align: center;
 }
 
 #todo .accion,
@@ -1779,8 +1784,15 @@ body.light .recomendados h1 {
   .contenedor-contenido{
     overflow: visible;
     display: inline-block;
-    height: 250px;
-    width: 180px;
+    width: 100%;
+  }
+  
+  #todo .accion, 
+  #todo .aventuras, 
+  #todo .comedia, 
+  #todo .recuentosDeLaVida{
+    width: 300px;
+    height: auto;
   }
 
   .title-contenido p {
@@ -1918,6 +1930,15 @@ body.light .recomendados h1 {
   }
 }
 
+@media (max-width: 1005px){
+  #todo .accion, 
+  #todo .aventuras, 
+  #todo .comedia, 
+  #todo .recuentosDeLaVida{
+    width: 280px;
+  }
+}
+
 @media (max-width: 950px){
   .video iframe {
     width: 100%;
@@ -1926,6 +1947,13 @@ body.light .recomendados h1 {
 
   .container-caps{
     padding: 0;
+  }
+  
+  #todo .accion, 
+  #todo .aventuras, 
+  #todo .comedia, 
+  #todo .recuentosDeLaVida{
+    width: 267px;
   }
 }
 
@@ -1941,11 +1969,25 @@ body.light .recomendados h1 {
   .change-cap{
     margin-bottom: 30px;
   }
+  
+  #todo .accion, 
+  #todo .aventuras, 
+  #todo .comedia, 
+  #todo .recuentosDeLaVida{
+    width: 250px;
+  }
 }
 
 @media (max-width: 850px){
   .video iframe{
     height: calc(506px - 28px);
+  }
+  
+  #todo .accion, 
+  #todo .aventuras, 
+  #todo .comedia, 
+  #todo .recuentosDeLaVida{
+    width: 243px;
   }
 }
 
@@ -2016,11 +2058,25 @@ body.light .recomendados h1 {
     width: 95%;
   }
   
+  #todo .accion, 
+  #todo .aventuras, 
+  #todo .comedia, 
+  #todo .recuentosDeLaVida{
+    width: 350px;
+  }
+  
 }
 
 @media (max-width: 800px){
   .video iframe{
     height: calc(506px - 56px);
+  }
+  
+  #todo .accion, 
+  #todo .aventuras, 
+  #todo .comedia, 
+  #todo .recuentosDeLaVida{
+    width: 335px;
   }
 }
 
@@ -2032,11 +2088,25 @@ body.light .recomendados h1 {
   .title-cap h1{
     font-size: 20px;
   }
+  
+  #todo .accion, 
+  #todo .aventuras, 
+  #todo .comedia, 
+  #todo .recuentosDeLaVida{
+    width: 310px;
+  }
 }
 
 @media (max-width: 700px){
   .video iframe{
     height: calc(506px - 112px);
+  }
+  
+  #todo .accion, 
+  #todo .aventuras, 
+  #todo .comedia, 
+  #todo .recuentosDeLaVida{
+    width: 290px;
   }
 }
 
@@ -2047,6 +2117,13 @@ body.light .recomendados h1 {
 
   .title-cap h1{
     font-size: 18px;
+  }
+  
+  #todo .accion, 
+  #todo .aventuras, 
+  #todo .comedia, 
+  #todo .recuentosDeLaVida{
+    width: 267px;
   }
 }
 
@@ -2074,6 +2151,13 @@ body.light .recomendados h1 {
   .container-404::after {
     content: "404";
     font-size: 115px;
+  }
+  
+  #todo .accion, 
+  #todo .aventuras, 
+  #todo .comedia, 
+  #todo .recuentosDeLaVida{
+    width: 248px;
   }
 }
 
@@ -2251,7 +2335,14 @@ body.light .recomendados h1 {
     font-size: 18px;
     margin: 10px 0;
     font-weight: normal;
-}
+  }
+  
+  #todo .accion, 
+  #todo .aventuras, 
+  #todo .comedia, 
+  #todo .recuentosDeLaVida{
+    width: 95%;
+  }
 }
 
 @media (max-width: 550px){
