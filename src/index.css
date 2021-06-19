@@ -1772,18 +1772,19 @@ body.light .recomendados h1 {
     width: 95%;
   }
 
-  .title-contenido{
+  .title-contenido {
     position: relative;
-    width: 100%;
+    width: calc(100% - 20px);
     border-radius: 0 0 10px 10px;
-    min-height: 0px;  
+    min-height: 0;
     text-align: left;
-    margin-top: 0;
-  }
+    margin-top: 6px;
+    padding: 10px;
+}
   
   .title-contenido p {
-    padding: 10px 0;
-    margin: 0 5px;
+    padding: 0;
+    margin: 0;
     display: inline;
     text-align: left;
     overflow: auto;
@@ -1797,13 +1798,23 @@ body.light .recomendados h1 {
   }
   
   .contenedor-contenido img{
-    height: 169px;
+    height: auto;
     display: block;
     box-shadow: 8px 8px #121921;
   }
   
   .contenedor-contenido::before, .title-contenido p{
     position: unset;
+  }
+  
+  .background::after {
+    content: "";
+    position: absolute;
+    bottom: 5px;
+    width: calc(100% - 10px);
+    height: 20%;
+    left: 5px;
+    background: #212f3d9c;
   }
   
   #todo .accion, 
