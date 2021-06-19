@@ -1803,8 +1803,8 @@ body.light .recomendados h1 {
 
   .hover-interface{
     position: absolute;
-    width: 180px;
-    height: 250px;
+    width: 100%;
+    height: 100%;
     border-radius: 0px;
   }
 
@@ -1816,7 +1816,10 @@ body.light .recomendados h1 {
     margin: 90px auto;
   }
 
-  .link-contenido:hover .hover-interface{
+  #todo .accion:hover .hover-interface, 
+  #todo .aventuras:hover .hover-interface, 
+  #todo .comedia:hover .hover-interface, 
+  #todo .recuentosDeLaVida:hover .hover-interface {
     display: none;
     transition: 0.3s all ease;
   }
