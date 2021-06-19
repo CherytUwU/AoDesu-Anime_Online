@@ -1774,11 +1774,19 @@ body.light .recomendados h1 {
 
   .title-contenido{
     position: relative;
-    width: 180px;
-    max-width: 180px;
+    width: 100%;
     border-radius: 0 0 10px 10px;
     min-height: 0px;  
-    margin-top: -4px;
+    text-align: left;
+    margin-top: 0;
+  }
+  
+  .title-contenido p {
+    padding: 10px 0;
+    margin: 0 5px;
+    display: inline;
+    text-align: left;
+    overflow: auto;
   }
 
   .contenedor-contenido{
@@ -1787,18 +1795,21 @@ body.light .recomendados h1 {
     width: 100%;
   }
   
+  .contenedor-contenido img{
+    height: 169px;
+    display: block;
+  }
+  
+  .contenedor-contenido::before, .title-contenido p{
+    position: unset;
+  }
+  
   #todo .accion, 
   #todo .aventuras, 
   #todo .comedia, 
   #todo .recuentosDeLaVida{
     width: 300px;
     height: auto;
-  }
-
-  .title-contenido p {
-    padding: 10px 0;
-    margin: 0 5px;
-    overflow: auto;
   }
 
   .hover-interface{
