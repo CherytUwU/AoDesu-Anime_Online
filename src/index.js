@@ -6,9 +6,9 @@ import * as serviceWorker from './serviceWorker';
 
 window.onload = detectarCarga;
 function detectarCarga(){
-  var elems = document.getElementsByClassName('imgPrincipal');
+  var elems = document.getElementsByClassName('background');
 for (var i=0;i<elems.length;i+=1){
-  elems[i].style.visibility = 'visible';
+  elems[i].style.display = 'none';
 }
 }
 
