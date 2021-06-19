@@ -600,7 +600,7 @@ nav h2 a{
 /* ////////////////////////////// MAIN ////////////////////////////// */
 
 .main{
-  width: 1018px;
+  width: 1370px;
   margin: 20px auto;
 }
 
@@ -1720,6 +1720,12 @@ body.light .recomendados h1 {
 }
 
 /* ////////////////////////////// MEDIA QUERY'S ////////////////////////////// */
+@media (max-width: 1740px){
+  .main{
+    width: 1018px;
+  }
+}
+
 @media (max-width: 1260px){
   .info{
     width: 1000px;
