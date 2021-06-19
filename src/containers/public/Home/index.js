@@ -48,7 +48,7 @@ const Home = () => {
                   <i className="far fa-arrow-alt-circle-right"></i>
                 </div>
               </div>
-              <img loading="lazy" src="https://i.ibb.co/7G2z3MR/Kono-Subarashii-Sekai-ni-Shukufuku-wo-season1-normal.jpg" title="Kono Subarashii Sekai ni Shukufuku wo!" alt="Kono Subarashii Sekai ni Shukufuku wo!" />
+              <img loading="lazy" src="https://i.ibb.co/svtTy3W/Kono-Subarashii-Sekai-ni-Shukufuku-wo-season1-largo.jpg" className="imgPrincipal" title="Kono Subarashii Sekai ni Shukufuku wo!" alt="Kono Subarashii Sekai ni Shukufuku wo!" />
               <div className="title-contenido">
                 <p>Kono Subarashii Sekai ni Shukufuku wo!</p>
               </div>
