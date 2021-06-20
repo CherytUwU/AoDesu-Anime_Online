@@ -18,8 +18,8 @@ const Header = () => {
             <h2 className="emision"><Link to="/en_emision"><span className="menu-text">En Emisión</span> <span className="icon-text"><i className="fas fa-clock"></i></span></Link></h2>
     
             <div className="btnContainer">
-              <button className="search-btn" id="btnSearch1" onclick="mostrarSearchInput()"><i className="fas fa-search" aria-hidden="true"></i></button>
-              <button className="search-btn-2" id="btnSearch2" onclick="ocultarSearchInput()"><i className="fas fa-search" aria-hidden="true"></i></button>
+              <button className="search-btn" id="btnSearch1" onclick="mostrarSearchInput()"><i className="fas fa-search" aria-hidden="true" title="Aun No Funciono :c"></i></button>
+              <button className="search-btn-2" id="btnSearch2" onclick="ocultarSearchInput()"><i className="fas fa-search" aria-hidden="true" title="Aun No Funciono :c"></i></button>
               <div className="container-searchInput" id="containerSearch">
                 <div className="container-color-input" id="input-container-search">
                   <form>
