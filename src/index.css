@@ -1419,7 +1419,7 @@ body.light .contenido-devnotes a:hover{
 
 .footer{
   width: 100%;
-  background: var(--extra-color-dark-2);
+  background: repeating-linear-gradient(45deg, black, transparent 100%);
 }
 
 .container-footer{
